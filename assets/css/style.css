@@ -1,0 +1,50 @@
+@import "reset.css";
+
+
+
+input[name="task"]{
+    border-width: 10px;
+    border-style: solid;
+}
+
+
+
+.validStyle{
+    border-color: green;
+}
+
+.invalidStyle{
+    border-color: red;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: gray;
+    min-height: 100vh;
+
+}
+
+#createTaskButton{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+#createTaskButton:hover{
+
+
+
+}
+
+#createTaskButton:active{
+
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.2) ;
+
+}
